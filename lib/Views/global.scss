@@ -64,7 +64,7 @@ body {
         &-primary {
             font-family: $font-base;
         }
-        &:hover {
+        &:hover, &:focus {
             color: $color-secondary;
         }
     }
@@ -79,7 +79,7 @@ body {
     }
 
     //buttons to hide
-    
+
 
     // Lat/lon buttons
     .tjs-legend__locationBar, .tjs-legend__distanceLegend {
